@@ -10,8 +10,8 @@
 </head>
 <body>
     <form class="login-form" action="validate.php" method="post">
-        <fieldset>
-            <legend>Login:</legend>
+        <fieldset class="login_fieldset">
+            <legend>Login</legend>
             <div class="mb-3">
                 <label class="form-label" for="user">Username:</label>
                 <input class="form-control" id="user" name="user" type="text" placeholder="Your username...">
