@@ -24,26 +24,23 @@
 
   <!-- Custom styles for this template -->
   <link href="./files/css/signin.css" rel="stylesheet">
-
 </head>
 
 <body class="text-center">
 
   <main class="form-signin w-100 m-auto">
-    <form>
+    <form method="post" action="validate.php">
       <img class="mb-4" src="./files/img/batman.gif" alt="" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input name="user" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input name="pwd" type="password" class="form-control" id="floatingPassword" placeholder="Password">
         <label for="floatingPassword">Password</label>
       </div>
-
-
 
       <div class="checkbox mb-3">
         <label>
@@ -52,11 +49,9 @@
       </div>
       <input class="w-100 btn btn-lg btn-primary" type="submit">
       <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
-
     </form>
+
   </main>
-
-
 
 </body>
 
