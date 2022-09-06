@@ -1,11 +1,6 @@
 <?php
-    session_start();
-    if(isset($_SESSION['user'])){
-        echo "inicio correcto";
-    }else{ 
-        
-    };
-    ?>
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -14,12 +9,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel privado</title>
-    <h1>Inicio correcto</h1>
+</head>
 
+<body>
+    <h1>Admin panel</h1>
+    <?php
+    if(isset($_SESSION['user'])){ 
+
+    } else {
+        header('Location: index.html');
+    }
+    ?>
 
     <a href="logout.php"><button>Log Out</button></a>
-</head>
-<body>
+
+
     
 </body>
 </html>
