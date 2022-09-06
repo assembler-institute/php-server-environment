@@ -111,12 +111,20 @@ main {
 
 .close {
     background-color: black;
+    margin-top: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
+    padding: 7px;
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+.close a {
+    color: white;
+    text-decoration: none;
+}
+.close:hover {
+    animation: none;
+    transform: scale(1.2);
 }
 .user-submit {
     background-color: black;

@@ -42,7 +42,7 @@ const piggy = [
     "./assets/img/bye.gif",
     "./assets/img/cookies.gif",
     "./assets/img/thanks.gif"
-    ] // We can store the pictures path in an array to have access easily later
+]; // We can store the pictures path in an array to have access easily later
 
 
 
