@@ -43,4 +43,4 @@ To deliver this project you must send a Pull Request as explained in the Student
 
 - [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php)
 - [PHP.ini](https://www.php.net/manual/es/configuration.file.php)
-- [PHP Superglobals](https://code.tutsplus.com/es/tutorials/php-superglobals-explained-with-cheatsheet--cms-36598)
+- [PHP Superglobalss](https://code.tutsplus.com/es/tutorials/php-superglobals-explained-with-cheatsheet--cms-36598)
