@@ -17,14 +17,14 @@
 <body>
     <header>
         <?php
-            echo '<h1>Welcome to the game panel, ' . $_SESSION['user'] .  '</h1>'
+            echo '<h1>Welcome to the game panel,<br> ' . $_SESSION['user'] .  '.</h1>'
         ?>
     </header>
     <main>
         <article>
             <h2 class="list-title">Choose a game!</h2>
             <ul class="games-list">
-                <li><a href="./piggy-word-bank/index.php"><i class="fa-solid fa-gamepad"></i> Piggy word bank</a></li>
+                <a href="./piggy-word-bank/index.php"><li><i class="fa-solid fa-gamepad"></i> Piggy word bank</li></a>
                 <li>.</li>
                 <li>.</li>
                 <li>.</li>

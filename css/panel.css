@@ -14,7 +14,7 @@ body {
     background-size: 175%;
     background: url('../assets_ser/img_ser/panel_header_bg.jpg');
     background-size: cover;
-    background-position: 53% 47%;
+    background-position: 50% 47%;
     background-color: #EEE;
 }
 header {
@@ -28,7 +28,7 @@ header {
     grid-column: span 3;
     background: url('../assets_ser/img_ser/panel_header_bg.jpg');
     background-size: cover;
-    background-position: 53% 47%;
+    background-position: 50% 47%;
     border-bottom: 3px solid black;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
     z-index: 1;
@@ -57,14 +57,17 @@ main {
 .games-list li {
     margin: 15px 0;
 }
-.games-list li a {
+.games-list a {
     text-decoration: none;
     color: black;
 }
-.games-list li a .fa-gamepad {
+.games-list a:hover {
+    transform: scale(1.5);
+}
+.games-list a .fa-gamepad {
     color:rgba(0, 158, 0, 1)
 }
-.games-list li a:visited .fa-gamepad {
+.games-list a:visited .fa-gamepad {
     color:rgb(158, 0, 145);
 }
 .close-session {
@@ -74,4 +77,15 @@ main {
 .close-session a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        grid-template-columns: 1fr 10fr 1fr;
+        background-size: 100%;
+    }
+    header {
+        background-size: 175%;
+        font-size: 1.1vw;
+    }
 }
