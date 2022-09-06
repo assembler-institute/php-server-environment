@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url(../assets/Imagen\ 19.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position-y: -600px;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 1;
+
+}
+
+
+.form-signin input[type="email"]{
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  opacity: 0.7;
+} .form-signin input[type="email"]:hover {
+  opacity: 1;
+  }
+
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  opacity: 0.7;
+} .form-signin input[type="password"]:hover {
+  opacity: 1;
+  }
+
+.colorText{
+  color:#582E29
+}
+
+.button{
+  background-color:#582e29de;
+border:0px;
+} .button:hover{
+    background-color:#582E29;
+
+  }
+
