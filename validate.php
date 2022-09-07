@@ -1,6 +1,8 @@
 <?php
     session_start();
+
     checkUser();
+
     function checkUser() {
         $users = ['Alex' => 'patata', 'Pepe' => 'pomelo'];
         $usernames = array_keys($users);
@@ -15,7 +17,7 @@
 
             }
         } else {
-            echo '<b> Username is incorrect. Please, <a href:"./index.php">try again</a></b>';
+            echo '<b> Username is incorrect. Please, <a href="./index.php">try again</a></b>';
         }
     }
 
