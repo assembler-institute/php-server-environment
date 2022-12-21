@@ -11,7 +11,7 @@
 
 
     if($_POST['name'] == $name && $_POST['password'] == $password){
-        $_SESSION['user'] = $_POST['name'];
+        $_SESSION['name'] = $_POST['name'];
         header("Location: panel.php");
     }else{
         header("Location: index.php");

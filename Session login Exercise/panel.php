@@ -21,10 +21,11 @@
             echo "Welcome, " . $_SESSION["name"], "<br>";
         } else {
             header("Location: ./index.php");
+            echo "Is a private section, you must log in";
         }
     ?>
 
-    <a href="close_session.php">Log out</a> 
+    <button><a href="close_session.php">Log out</a></button> 
 </body>
 
 </html>
