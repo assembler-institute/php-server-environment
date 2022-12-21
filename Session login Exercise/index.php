@@ -11,7 +11,7 @@
     <form action = "validate.php" method="POST">
         <label>
             Name:
-           <input type="text" name="name">
+        <input type="text" name="name">
         </label>
 
         <br>
