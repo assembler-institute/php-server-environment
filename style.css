@@ -1,0 +1,23 @@
+
+.container{
+    display: block;
+    margin: 0 auto;
+    background-color:blueviolet;
+    width: 50%;
+}
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   margin: 0 auto;
+}
+
+#submit{
+    width: 30%;
+    margin:0 auto;
+}
+
+input{
+    width: 50%;
+}
