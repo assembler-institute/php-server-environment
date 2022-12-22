@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url("./assets/vstShop.jpg");
+  background-position: top;
+}
+
+header {
+  height: 8%;
+  display: flex;
+  align-items: center;
+}
+
+#login-section {
+  height: 92%;
+  width: 100vw;
+}
+
+.title {
+  font-family: "MuseoModerno", cursive;
+  color: rgb(230, 230, 230, 0.75);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 6vw;
+}
+
+.subtitle {
+  font-family: "MuseoModerno", cursive;
+  color: rgb(230, 230, 230, 0.75);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2vw;
+}
+
+#login-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#login-form input,
+#login-form label {
+  font-size: 1em;
+  font-family: "MuseoModerno", cursive;
+  color: rgb(230, 230, 230, 0.75);
+  font-size: clamp(15px, 2vw, 50px);
+}
+
+#login-form input {
+  font-family: "MuseoModerno", cursive;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(230, 230, 230, 0.75);
+}
+
+#login-form button {
+  font-family: "MuseoModerno", cursive;
+  width: 10vw;
+  font-size: 1.5em;
+  border: 1px solid rgb(230, 230, 230, 0.75);
+  color: rgb(230, 230, 230, 0.75);
+  outline: none;
+  background-color: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+#login-form button:hover {
+  background-color: rgb(230, 230, 230, 0.75);
+  border: 1px solid transparent;
+}
+
+.error {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(230, 230, 230, 0.75);
+  width: 100%;
+  font-family: "MuseoModerno", cursive;
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.panel-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-form {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#logout-btn {
+  font-family: "MuseoModerno", cursive;
+  width: 10vw;
+  font-size: 1.5em;
+  border: 1px solid rgb(230, 230, 230, 0.75);
+  color: rgb(230, 230, 230, 0.75);
+  outline: none;
+  background-color: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+#logout-btn:hover {
+  background-color: rgb(230, 230, 230, 0.75);
+  border: 1px solid transparent;
+}
+
+.projects-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.project {
+  cursor: pointer;
+  height: 40vh;
+  width: 40vh;
+  background-color: rgb(230, 230, 230, 0.5);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+}
+
+.project:hover {
+  transform: scale(0.975);
+}
+
+.project p {
+  cursor: pointer;
+  font-family: "MuseoModerno", cursive;
+  color: rgb(230, 230, 230, 0.75);
+  font-size: 150px;
+}
