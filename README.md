@@ -10,37 +10,24 @@
 
 ## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+- [How to create Users](#how-to-create-users)
+- [Bootstrap Panel](#bootstrap-panel)
+- [Author](#author)
 
-## Requirements
+## How to create users
 
-- Learn how to use the $_SERVER
-- Understand what a server-side language is and what it is used for
+You could create Users in the folder 'app/resources/users.php/.
 
-## Repository
+You must need to create a new array at the bottom of the $user variable. It's important to follow the next structure:
 
-First of all you must fork this project into your GitHub account.
+- Must assign the key "user" to the new username and the your custom user.
+- Must assign the key "pass" in the same array of the new user.
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+If you don't accomplish this instructions your user won't work.
 
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+## Bootstrap Panel
 
-## Technologies used
+You could change the panel, since the page it's based on a bootstrap template.
 
-\* PHP
-
-## Project delivery
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
-
-## Resources
-
-- [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php)
-- [PHP.ini](https://www.php.net/manual/es/configuration.file.php)
-- [PHP Superglobals](https://code.tutsplus.com/es/tutorials/php-superglobals-explained-with-cheatsheet--cms-36598)
+## Author
+* **[Valentino Traverso](https://github.com/valentraverso)** - Developer
