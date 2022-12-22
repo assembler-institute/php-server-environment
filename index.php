@@ -11,8 +11,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8bbf7b9ae4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <main class="main">
@@ -40,9 +41,9 @@
         <?php
                 if(isset($_GET["error"])) {
                     if($_GET["error"] == "incorrect_data") {
-                        echo "<p class='error1'>Username or password wrong.</p>";
+                        echo "<p class='error1'><i class='fa-solid fa-triangle-exclamation'></i> Username or password wrong.</p>";
                     } else {
-                        echo "<p class='error1'>Please login first</p>";
+                        echo "<p class='error1'><i class='fa-solid fa-triangle-exclamation'></i> Please login first</p>";
                     }
                 }
             ?>

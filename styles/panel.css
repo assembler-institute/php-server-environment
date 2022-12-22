@@ -24,6 +24,10 @@ header {
     padding: 30px 0;
 }
 
+.title {
+    color: white;
+}
+
 header a button {
     background-color: var(--color-1);
     color: white;
