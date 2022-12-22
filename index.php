@@ -1,3 +1,8 @@
+<?php
+require_once("./modules/sessioncontrol.php");
+checkUser();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,16 +18,8 @@
 </head>
 
 <body>
-
-    <?php
-    session_start();
-
-    if (isset($_SESSION['email'])) {
-        header("Location: panel.php");
-    }
-    ?>
     <header>
-        <form id="login-form" action="validate.php" method="POST">
+        <form id="login-form" action="./modules/login.php" method="POST">
             <label for="email">3mail</label>
             <input required type="email" name="email" id="email">
             <label for="password">P4ss</label>
@@ -34,11 +31,7 @@
         <h1 class="title">WORK SP4C3</h1>
         <h2 class="subtitle">Do your magic</h2>
         <?php
-        if (isset($_GET['error'])) {
-            echo "<div class='error'>
-            <p>INCORR3CT LOGIN</p>
-            </div>";
-        }
+        checkLoginError();
         ?>
     </main>
 </body>

@@ -14,17 +14,13 @@
 
 <body>
     <?php
-    session_start();
-
-
-    if (!isset($_SESSION['email'])) {
-        header('Location: index.php');
-    }
+    require_once("./modules/sessioncontrol.php");
+    checkSession();
     ?>
     <main class="panel-main">
         <header class="logout-form">
-          <p class="subtitle"> Hi, <?php echo $_SESSION['email'] ?> </p>
-            <form action="close_session.php">
+            <p class="subtitle"> Hi, <?php echo $_SESSION['email'] ?> </p>
+            <form action="./modules/logout.php">
                 <button id="logout-btn">Logout</button>
             </form>
         </header>
