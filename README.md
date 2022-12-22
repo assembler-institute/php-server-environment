@@ -24,12 +24,6 @@ I also used Bootstrap to create a simple and beautiful layout and desing.
 \* XAMPP
 \* Bootstrap
 
-## Project delivery ✅
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
-
 ## Resources 👀
 
 - [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php)
