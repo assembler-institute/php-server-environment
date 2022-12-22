@@ -10,13 +10,13 @@
     $userInp = $_POST['username'];
     $passInp = $_POST['user_password'];
 
-    if($username === $userInp || $username2 === $userInp && $password === $passInp) {
+    if(($username === $userInp || $username2 === $userInp) && $password === $passInp) {
         session_start();
         $_SESSION["username"] = $userInp;
         $_SESSION["user_password"] = $passInp;
         header("Location: panel.php");
     } else {
-        header("Location: index.php");
+        header("Location: index.php?error=incorrect_data");
     }
 ?>
 

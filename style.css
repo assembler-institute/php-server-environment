@@ -1,92 +1,127 @@
+:root {
+    --color-1: #1C315E;
+    --color-2: #227C70;
+    --color-3: #88A47C;
+    --color-4: #E6E2C3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-2)
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .card {
-    width: 190px;
-    height: 254px;
-    background: #F4F6FB;
+    width: 250px;
+    height: 294px;
+    background: var(--color-4);
     border: 1px solid white;
-    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
-    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
-    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+    border-radius: 10px;
 }
 
 .form {
-padding: 25px;
+    padding: 25px;
 }
 
 .card_header {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .card svg {
-color: #7878bd;
-margin-bottom: 20px;
-margin-right: 5px;
+    color: var(--color-1);
+    margin-bottom: 20px;
+    margin-right: 5px;
 }
 
 .form_heading {
-padding-bottom: 20px;
-font-size: 21px;
-color: #7878bd;
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: var(--color-1);
 }
 
 .field {
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .input {
-border-radius: 5px;
-background-color: #e9e9f7;
-padding: 5px;
-width: 100%;
-color: #7a7ab3;
-border: 1px solid #dadaf7
+    border-radius: 5px;
+    background-color: #e9e9f7;
+    padding: 5px;
+    width: 100%;
+    color: var(--color-1);
+    border: 1px solid var(--color-1)
 }
 
 .input:focus-visible {
-outline: 1px solid #aeaed6;
+    outline: 1px solid #aeaed6;
 }
 
 .input::-webkit-input-placeholder {
-color: #bcbcdf;
+    color: #bcbcdf;
 }
 
 .input::-moz-placeholder {
-color: #bcbcdf;
+    color: #bcbcdf;
 }
 
 .input:-ms-input-placeholder {
-color: #bcbcdf;
+    color: #bcbcdf;
 }
 
 .input::-ms-input-placeholder {
-color: #bcbcdf;
+    color: #bcbcdf;
 }
 
 .input::placeholder {
-color: #bcbcdf;
+    color: #bcbcdf;
 }
 
 label {
-color: #B2BAC8;
-font-size: 14px;
-display: block;
-padding-bottom: 4px;
+    color: var(--color-1);
+    font-size: 14px;
+    display: block;
+    padding-bottom: 4px;
+}
+
+.field-button {
+    text-align: center;
 }
 
 button {
-background-color: #7878bd;
-margin-top: 10px;
-font-size: 14px;
-padding: 7px 12px;
-height: auto;
-font-weight: 500;
-color: white;
+    background-color: var(--color-1);
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px 20px;
+    height: auto;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 button:hover {
-background-color: #5f5f9c;
+    background-color: #5f5f9c;
+}
+
+.error1 {
+    color: rgb(247, 86, 86);
+    margin-top: 10px;
+    line-height: 15px;
 }
