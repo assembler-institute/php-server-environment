@@ -1,2 +1,12 @@
-<p>All login validations must be done in this file receiving the form data by the POST method and this should redirect the user depending on whether the login is correct or not. 
-    You can use a simple string comparison or anything you want for deciding if the login is correct or not.</p>
+<?php
+
+$email = "info@php.net";
+$pass = "13243546";
+
+if ($email == $_POST["email"] && $pass == $_POST["pass"]) {
+    session_start();
+    $_SESSION["email"] = $_POST["email"];
+    header("Location: panel.php");
+} else {
+    header("Location: index.php");
+}
