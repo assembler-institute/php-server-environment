@@ -1,3 +1,10 @@
+<?php
+    session_start();
+
+    if(isset($_SESSION["username"]) && isset($_SESSION["user_password"])) {
+        header("Location: panel.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +16,7 @@
 </head>
 <body>
     <main>
-    <form class="form card">
+    <form class="form card" method="post" action="validate.php">
         <div class="card_header">
             <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0h24v24H0z" fill="none"></path>
@@ -26,7 +33,7 @@
             <input id="password" placeholder="Password" type="password" name="user_password" class="input">
         </div>
         <div class="field">
-            <button class="button">Login</button>
+            <button type="submit" class="button">Login</button>
         </div>
         </form>
     </main>
