@@ -10,27 +10,35 @@
 </head>
 
 <body>
-    <section class="container">
+    <div class="container">
         <form action="validate.php" method="POST" class="formulario">
             <label for="username" class="username-label">
                 Username:
-            <input type="text" name="username" id="username" required>
+                <input type="text" name="username" id="username">
             </label>
             <label for="password" class="password-label">
                 Password:
-            
-            <input type="text" name="password" id="password" required>
+
+                <input type="password" name="password" id="password">
             </label>
             <input type="submit" name="finalizar" id="submit">
+            <div class="errores">
+                <p>
+                    <?php
+                    session_start();
+                    if (isset($_SESSION['errorVacio'])) {
+                        echo $_SESSION['errorVacio'];
+                    }
+                    if (isset($_SESSION['errorSession'])) {
+                        echo $_SESSION['errorSession'];
+                    }
+                    session_destroy();
+                    ?>
+                </p>
+            </div>
 
-            <p>
-                hola caracola
-                <?php
-
-                ?>
-            </p>
         </form>
-    </section>
+    </div>
 
 </body>
 
