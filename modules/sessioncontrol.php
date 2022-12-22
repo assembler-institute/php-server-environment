@@ -23,7 +23,7 @@ function checkSession()
     session_start();
 
     if (!isset($_SESSION['email'])) {
-        header('Location: index.php');
+        header('Location: index.php?notallowed=true');
     }
 }
 
@@ -52,4 +52,10 @@ function checkLoginError()
         <p>INCORR3CT LOGIN</p>
         </div>";
     }
+    if (isset($_GET['notallowed'])) {
+        echo "<div class='error'>
+        <p>YOU TRI3D TO ACC3SS A PRIV4TE P4G3</p>
+        </div>";
+    }
 }
+

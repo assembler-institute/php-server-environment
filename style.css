@@ -16,6 +16,7 @@ header {
   height: 8%;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 #login-section {
@@ -34,11 +35,23 @@ header {
 
 .subtitle {
   font-family: "MuseoModerno", cursive;
-  color: rgb(230, 230, 230, 0.75);
   margin: 0;
   padding: 0;
   text-align: center;
   font-size: 2vw;
+  background-image: url(https://ia800704.us.archive.org/6/items/jajam943_gmail_19/1%20%281%29.gif);
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.greet {
+  font-family: "MuseoModerno", cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(230, 230, 230, 0.75);
 }
 
 #login-form {
@@ -153,7 +166,7 @@ header {
 }
 
 .project:hover {
-  transform: scale(0.975);
+  transform: scale(0.995);
 }
 
 .project p {

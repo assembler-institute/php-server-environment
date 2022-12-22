@@ -19,12 +19,12 @@
     ?>
     <main class="panel-main">
         <header class="logout-form">
-            <p class="subtitle"> Hi, <?php echo $_SESSION['email'] ?> </p>
+            <p class="greet"> Hi, <?php echo $_SESSION['email'] ?> </p>
             <form action="./modules/logout.php">
                 <button id="logout-btn">Logout</button>
             </form>
         </header>
-        <h2 class="subtitle">Start a project</h2>
+        <h2 class="greet">Start a project</h2>
         <section class="projects-container">
             <div class="project">
                 <p>+</p>

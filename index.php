@@ -28,8 +28,8 @@ checkUser();
         </form>
     </header>
     <main id="login-section">
-        <h1 class="title">WORK SP4C3</h1>
-        <h2 class="subtitle">Do your magic</h2>
+        <h1 id="title" class="title">WORK SP4C3</h1>
+        <h2 id="subtitle" class="subtitle">Do your magic</h2>
         <?php
         checkLoginError();
         ?>
