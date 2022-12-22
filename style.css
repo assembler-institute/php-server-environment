@@ -1,0 +1,36 @@
+
+
+*{
+    font-family: 'Caveat', cursive;   
+}
+
+body {
+    background-image: url("assets/img/foto.jpeg");
+    background-size: cover;
+}
+
+form {
+ font-size: 20px;
+  min-width: 330px;
+ max-width: 330px; 
+ display: flex;
+ flex-direction: column;
+ margin: 150px auto;
+ align-items: center;
+ /* gap: 5px; */
+ border: 5px solid black;
+ text-align: center;
+ background-color:  rgba(120, 140, 140, 0.534);
+ 
+}
+form h3{
+   
+    margin-top: 15px;
+}
+form input{
+    margin: 0;
+}
+.btn{
+    font-size: 20px;
+     margin-bottom: 20px;
+}

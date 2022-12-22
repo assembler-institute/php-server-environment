@@ -13,7 +13,7 @@ if($username===$_REQUEST["user"] && $password===$_REQUEST["password"]){
     $_SESSION["user"] = $username;
     header("Location: panel.php");
 }else {
-    header("Location: index.php?error=incorrectUser");
+    header("Location: index.php?error=You've to insert a correct username");
     echo "You're not logged";
 }
 
