@@ -1,0 +1,19 @@
+{
+  "name": "php-server-environment",
+  "version": "1.0.0",
+  "description": "`#php` `#server` `#master-in-software-development`",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DTPF/php-server-environment.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DTPF/php-server-environment/issues"
+  },
+  "homepage": "https://github.com/DTPF/php-server-environment#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
