@@ -19,5 +19,8 @@ if(($username != $user && $username!="") || ($password != $pass && $password!=""
 }
 
 if ($username == $user && $password == $pass) {
+    $_SESSION['username']=$user;
+    $_SESSION['password']=$pass;
     header("Location: panel.php");
+    
 }

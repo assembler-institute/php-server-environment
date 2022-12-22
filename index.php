@@ -9,7 +9,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="pagina-login">
     <div class="container">
         <form action="validate.php" method="POST" class="formulario">
             <label for="username" class="username-label">
