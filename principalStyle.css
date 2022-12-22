@@ -1,0 +1,106 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url("Assets/imagen-principal.png");
+	background-size: cover;
+	place-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 12vh;
+	background-color: blue;
+	margin-top: -1.5%;
+	margin-left: -1.5%;
+}
+
+.menu img {
+	width: 5%;
+	height: 70%;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+
+.account {
+	color: white;
+	margin-right: 3%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+.account:hover {
+	background-color: black;
+	color: aqua;
+}
+
+.menu-account {
+	display: none;
+
+}
+
+.menu-account_show {
+	background-color: black;
+	color: white;
+	width: 10%;
+	margin-bottom: -10%;
+	margin-left: 90%;
+	display: block;
+	position: absolute;
+	z-index: 0;
+}
+
+.menu-account p:hover {
+	background-color: red;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	place-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	margin-bottom: -30%;
+	z-index: -1;
+}
+
+.container h1 {
+	font: bold 80px/1 arial;
+	text-transform: uppercase;
+	color: #c69c1e;
+	text-shadow: 0 12px 0 #41330a;
+	font-size: 100px;
+
+}
+
+.content {
+	width: 80%;
+	height: 20%;
+}
+
+input {
+	width: 31%;
+	height: 100%;
+	text-align: center;
+}
+
+select {
+	width: 31%;
+	height: 100%;
+	text-align: center;
+}
+
+button {
+	width: 31%;
+	height: 100%;
+	margin-left: 32%;
+	background-color: skyblue;
+}
