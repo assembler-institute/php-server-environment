@@ -7,11 +7,11 @@
 </p>
 
 > In this project you will learn how to explore the content of the variable $_SERVER which is injected to the running script, in it we can find information about the server environment and the client.
+It has been interesting to know how a form is made in php. It was somewhat complex for me to understand the "session_start" since it gave me some problems at the beginning by not getting the correct info to take me to the next page.
 
 ## Index <!-- omit in toc -->
 
 - [Requirements](#requirements)
-- [Repository](#repository)
 - [Technologies used](#technologies-used)
 - [Project delivery](#project-delivery)
 - [Resources](#resources)
@@ -20,18 +20,12 @@
 
 - Learn how to use the $_SERVER
 - Understand what a server-side language is and what it is used for
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+- introduce Bootstrap in PHP.
 
 ## Technologies used
 
 \* PHP
+\* Bootstrap
 
 ## Project delivery
 
