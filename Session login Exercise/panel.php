@@ -17,8 +17,8 @@
 
     <?php
         
-        if (isset($_SESSION["name"])) { 
-            echo "Welcome, " . $_SESSION["name"], "<br>";
+        if (isset($_SESSION["user"])) { 
+            echo "Welcome, " . $_SESSION["user"], "<br>";
         } else {
             header("Location: ./index.php");
             echo "Is a private section, you must log in";

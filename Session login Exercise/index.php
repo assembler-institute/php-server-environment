@@ -8,10 +8,16 @@
 </head>
 <body>
 
+<?php
+
+    if($_GET["error"])echo $_GET["error"];
+
+?>
+
     <form action = "validate.php" method="POST">
         <label>
             Name:
-        <input type="text" name="name">
+        <input type="text" name="user">
         </label>
 
         <br>

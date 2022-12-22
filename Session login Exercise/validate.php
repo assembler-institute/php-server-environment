@@ -2,7 +2,7 @@
 
     session_start();
 
-    print_r($_POST);
+    print_r($_REQUEST);
 
 
     $name = "monica";
@@ -10,12 +10,11 @@
 
 
 
-    if($_POST['name'] == $name && $_POST['password'] == $password){
-        $_SESSION['name'] = $_POST['name'];
+    if($_REQUEST['user'] == $name && $_REQUEST['password'] == $password){
+        $_SESSION['user'] = $_REQUEST['user'];
         header("Location: panel.php");
     }else{
-        header("Location: index.php");
-        echo "error";
+        header("Location: index.php?error=incorrectuser");
     }   
     
 
