@@ -5,9 +5,9 @@
     print_r($_REQUEST);
 
 
+
     $name = "monica";
     $password = "1234";
-
 
 
     if($_REQUEST['user'] == $name && $_REQUEST['password'] == $password){
@@ -17,11 +17,6 @@
         header("Location: index.php?error=incorrectuser");
     }   
     
-
-
-
-
-
 
 
 ?>
