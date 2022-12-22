@@ -13,12 +13,14 @@
 
 <body class="text-center">
     
-    <main class="form-signin w-100 m-auto p-3 mb-2 bg-info text-dark bg-opacity-25">
+    <main class="form-signin m-5">
 
-    <form method="post" action="./validate.php" class="abs-center">
-    <h2>Please sing in</h2>
-
-    <div class="mb-3 row">
+    <form method="post" action="./validate.php" class="abs-center w-50 m-auto p-3 mb-2 bg-info text-dark bg-opacity-25">
+    <img src="image/yourpage.png" class="rounded-circle" width="100" alt="logo_your_page">
+    <br><br>
+    <h3>To continue, sign in to YourPage</h3>
+<br>
+    <div class="mb-3 row justify-content-center">
     <label for="username" class="col-sm-2 col-form-label">Username:</label>
     <div class="col-sm-4">
       <input type="text" name="user" class="form-control" id="username"> 
@@ -26,7 +28,7 @@
   </div>
 <br>
 
-  <div class="mb-3 row">
+  <div class="mb-3 row justify-content-center">
     <label for="inputPassword" class="col-sm-2 col-form-label">Password:</label>
     <div class="col-sm-4">
       <input type="password" name="password" class="form-control" id="inputPassword">
@@ -43,7 +45,7 @@ if (isset($_GET["msg"]) && $_GET["msg"] === "errorLogin") { ?>
 <?php } ?>
 
 
-<input class="w-30 btn btn-lg btn-info" type="submit" value="Login">
+<input class="w-30 btn btn-md btn-info" type="submit" value="Login">
 
 </form>
 
