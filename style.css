@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #c9dff6;
+}
+
+.container-login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-login {
+  width: 50vw;
+  background-image: url("assets/esma-Phaz7JBtSWE-unsplash.jpg");
+  background-size: cover;
+}
+
+.container-form-login {
+  width: 50vw;
+  height: 100vh;
+  background-color: #476972;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-login {
+  width: 35vw;
+  height: 85vh;
+  padding: 5em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.form-login h2 {
+  margin-bottom: 1.5em;
+}
+
+.form-login input {
+  background-color: #476972;
+  height: 3em;
+  width: 20em;
+  border-color: #c9dff6;
+  font-size: 1em;
+  padding: 1em;
+}
+
+input:focus {
+  background-color: #c9dff6;
+  color: #242829;
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: #c9dff6;
+  -webkit-box-shadow: 0 0 0px 1000px #476972 inset;
+}
+
+.form-login label {
+  color: #c9dff6;
+  font-size: 1em;
+}
+
+button {
+  height: 3em;
+  width: 20em;
+  margin-top: 2em;
+  background-color: #c9dff6;
+  border-color: #c9dff6;
+  color: #242829;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.body-panel-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #476972;
+}
+
+.body-panel-page h2 {
+  font-size: 50px;
+  margin-bottom: 1em;
+}
+
+.body-panel-page div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("assets/esma-Phaz7JBtSWE-unsplash.jpg");
+  background-size: cover;
+}
+
+.body-panel-page div h2 {
+  color: #242829;
+  text-shadow: 1px 1px 1px #476972;
+}
+
+.body-panel-page div button {
+  background-color: #242829;
+  color: #8f9ead;
+  border-color: #242829;
+}
+
+.error-invalid-user {
+  width: 90vw;
+  height: 4.5em;
+  top: 10px;
+  position: fixed;
+  background-color: #c9dff6af;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-invalid-user h3 {
+  color: #242829;
+  font-size: 45px;
+}
