@@ -20,6 +20,9 @@
     <div class="menu-account">
                 <?php
             session_start();
+            if(!isset($_SESSION['username'])){
+                header("Location: index.php");
+            }
             echo "<p><b>Username:</b> ". $_SESSION['username']."</p>";
             echo "<p><b>Password:</b> ".$_SESSION['password']."</p>";
                 ?>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,11 +29,17 @@
                     session_start();
                     if (isset($_SESSION['errorVacio'])) {
                         echo $_SESSION['errorVacio'];
+                        session_destroy();
                     }
                     if (isset($_SESSION['errorSession'])) {
                         echo $_SESSION['errorSession'];
+                        session_destroy();
                     }
-                    session_destroy();
+                    if(isset($_SESSION['username'])){
+                        header("Location: panel.php");
+                    }
+                    
+                    
                     ?>
                 </p>
             </div>
