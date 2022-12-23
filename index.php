@@ -11,12 +11,6 @@ if(isset($_SESSION['email'])) {
 }
 
 ?>
-<!-- <section id="tittle-login" class="container-fluid">
-    <div class="row">
-    <h2 class="col-md-12 col-sm-6 ">Complete the fields to log in</h2>
-        
-    </div>
-</section> -->
     
 <section id="section-login" class="container">
     <div class="row">
@@ -32,12 +26,9 @@ if(isset($_SESSION['email'])) {
             </div>
             <button type="submit"  name="login">Submit</button>
             <br><br>
-            <!-- <input type="submit" name="login" value="Log in"> -->
         </form>
     </div>
 </section>
-
-
 
  <?php
  include "footer.php";

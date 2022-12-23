@@ -11,8 +11,7 @@ if(!isset($_SESSION['email'])){
     <div class="row">
         <h1 class="col-md-6 col-xs-12"><?php echo 'Welcom back! <br><span>' . $_SESSION['email'] . '</span>';?></h1>
         <form id="close-sesion" action="index.php" method="post">
-            <button type="submit" value="Clouse session" name="clouse">Clouse</button>
-            <!-- <input type="submit" value="Clouse session" name="clouse"> -->
+            <button class="close" type="submit" value="Clouse session" name="clouse">Close</button>
         </form>
     </div>
 </section>
