@@ -24,7 +24,12 @@ if (!isset($_SESSION["user"]) || !isset($_SESSION["password"])) {
     <h3>Private page</h3>
 
     <?php
-    $username = "Iuliia";
+
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
+
+    $username = "Iuliia"
     echo "Welcome $username! <br><br>";
     echo "<b>Your session dates:</b> <br> Browser: $_SERVER[HTTP_USER_AGENT],<br> IP: $_SERVER[REMOTE_ADDR],<br> Username: $_SESSION[user],<br> Password: $_SESSION[password]<br>";
 
