@@ -23,13 +23,6 @@ function backToSign(){
 backToSign();
 
 
-
-
-
-
-
-    
-
 ?>
     <div class="container-fluid text-center d-flex justify-content-center align-items-center">
         <div class="text-white col-md-2 rounded-bottom bg-dark">
@@ -48,9 +41,6 @@ backToSign();
                     <input type="text" name="email" placeholder="Email" class="text-center rounded-3 border-0" required>
                     <input type="password" name="password" placeholder="Password" class="text-center rounded border-0 mt-2" required>
                     <button type="submit" class="btn rounded p-1 mt-3" id="login-button">Login</button>
-                </form>
-                <form method="POST" class="row p-5 pt-0">
-                    <button type="submit" class="btn rounded p-1 bg-danger" id="sing-button" name="sing-up">Sing up</button>
                 </form>
             </div>
         </div>
