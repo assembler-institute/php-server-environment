@@ -1,0 +1,144 @@
+body{
+    background-color: #1C1C1C;
+}
+
+#section-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70vw;
+    height: 90vh;
+}
+
+#tittle-login{
+    color: #dcb18c;
+    margin-bottom: 50px;
+}
+#form-login{
+    display: flex;
+}
+
+.form-control{
+    border:none;
+}
+input[type="email"], input[type="password"]{
+    background-color: #1C1C1C;
+    border-bottom: 1px solid #dcb18c;
+    color:#dcb18c;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    width: 30vw;
+}
+::placeholder {
+    color:#dcb18c !important;
+}
+input[type="email"], input[type="password"]:active{
+    background-color: #1C1C1C !important;
+}
+.form-control:focus:focus{
+    background-color: #1C1C1C !important;
+    border-bottom: 5px solid #dcb18c;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+label{
+    color:antiquewhite;
+}
+
+button[type="submit"]{
+    padding: 50px 35px;
+    border-radius: 150px;
+    background: #1c1c1c;
+    border: 1px solid #dcb18c;
+    color: #dcb18c;
+    font-weight: 900;
+    transition: 0.4s;
+	transform: perspective(1px) translateZ(0);
+}
+
+button[type="submit"]:hover {
+	color: #1c1c1c;
+    background-color: #dcb18c;
+}
+
+button[type="submit"]::before {
+	clip-path: circle(0.5% at 50% 50%);
+	background-color: #dcb18c;
+	transition: 0.4s;
+	opacity: 1;
+}
+
+button[type="submit"]:hover::before {
+	clip-path: circle(100% at 50% 50%);
+}
+
+.warning{
+    color: #dcb18c;
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.greeting{
+    color: #dcb18c;
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+}
+
+#section-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#section-panel h1{
+    width: 100%;
+    color:#dcb18c;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#section-panel h1 span{
+    font-weight: 100;
+}
+
+#close-sesion{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 790px){
+    #form-login{
+        display: flex;
+        flex-direction: column !important;
+    }
+    input[type="email"], input[type="password"]{
+        width: 100% !important;
+    }
+    button[type="submit"]{
+        padding: 20px !important;
+    }
+    #section-panel h1{
+        font-size: 60px;
+        padding: 20px;
+    }
+    #close-sesion button{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    #section-panel h1{
+        font-size: 40px;
+        padding: 20px;
+    }
+
+}
