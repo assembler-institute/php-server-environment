@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.initialPage {
+    background-image: url(assets/door.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invalid {
+    color: red;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnSubmit {
+    width: 6em;
+    margin: 2em;
+    border-radius: 20px;
+}
+
+label {
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome {
+    color:yellow;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 4em;
+    font-size: 20px;
+}
+
+.control {
+    /* height: 100vh; */
+    position: absolute;
+    bottom: 0;
+    opacity: 0.1;
+}
+
+.control:hover {
+    opacity: 1;
+    transition: 3s;
+}
+
+.tori {
+    background-image: url(assets/tori.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logout {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    border-radius: 20px;
+}
+
