@@ -51,17 +51,22 @@
       <?php
         if(isset($_GET["error"])){
           switch ($_GET["error"]){
-          case "incorrect":
-            echo "<div class='alert alert-primary' role='alert'>Your Email or Password are incorrect.</div>";
+          case "incorrect": 
+            ?>
+            <div class='alert alert-primary' role='alert'>Your Email or Password are incorrect.</div>
+            <?php
             break;
           case "userempty":
-            echo "<div class='alert alert-primary' role='alert'>Your Email is empty.</div>";
+            ?><div class='alert alert-primary' role='alert'>Your Email is empty.</div>
+            <?php
             break;
           case "passempty":
-            echo "<div class='alert alert-primary' role='alert'>Your Password is empty.</div>";
+            ?><div class='alert alert-primary' role='alert'>Your Password is empty.</div>
+            <?php
             break;
           case "bothempty":
-            echo "<div class='alert alert-primary' role='alert'>Both inputs are empty.</div>";
+            ?><div class='alert alert-primary' role='alert'>Both inputs are empty.</div>
+            <?php
             break;
           }
         }
