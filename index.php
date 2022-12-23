@@ -17,11 +17,11 @@
         <!-- Mejorar Error -->
     <form class="login" action="validate.php" method="POST">
         <label>
-            <input type="text" name="username" placeholder="Username">
+            <input type="text" name="username" placeholder="Username" required>
         </label>
         <br>
         <label>
-            <input type="password" name="password" placeholder="Password">
+            <input type="password" name="password" placeholder="Password" required>
         </label>
         <?php
             if(isset($_GET["error"]))
