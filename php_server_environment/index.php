@@ -10,7 +10,7 @@ if (isset($_SESSION["email"]))
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/php-server-environment/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/php-server-environment/php_server_environment/css/index.css">
     <script src="/php-server-environment/script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>PHP Server Environment | Joe Alt</title>
