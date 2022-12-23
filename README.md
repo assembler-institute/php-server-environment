@@ -21,6 +21,14 @@
 - Learn how to use the $_SERVER
 - Understand what a server-side language is and what it is used for
 
+## Preview
+
+This is a screenshot of yhe Log In page of the project.
+
+<p>
+  <img alt="Log In page" src="php_server_environment/images/logIn.png" />
+</p>
+
 ## Repository
 
 First of all you must fork this project into your GitHub account.
