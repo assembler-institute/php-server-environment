@@ -9,7 +9,7 @@ body{
     border-radius: 10px;
     border: 2px solid black;
     background: rgba(235, 222, 236, 0.374);
-}
+    font-family: fantasy;
 
 .form input{
     width: 95%;
