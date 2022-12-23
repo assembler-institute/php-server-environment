@@ -23,7 +23,7 @@
 
 ## Preview
 
-This is a screenshot of yhe Log In page of the project.
+This is a screenshot of the Log In page of the project.
 
 <p>
   <img alt="Log In page" src="php_server_environment/images/logIn.png" />
