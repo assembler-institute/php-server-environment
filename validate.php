@@ -1,6 +1,6 @@
 <?php
 session_start();
-$username= 'lucy';
+$username= 'tenalucia0@gmail.com';
 $password= '123456';
 
 echo '<pre>';

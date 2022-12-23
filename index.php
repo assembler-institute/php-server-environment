@@ -24,7 +24,7 @@ if (isset($_SESSION['logged-in'])) {
         <label class="label"for="Name">Username</label><br>
         <input type='text' name='user' required> <br>
         <label class="label"for="Name">Password</label> <br>
-        <input type='pssword' name='password' required> <br>
+        <input type='password' name='password' required> <br>
         <button type='submit' class="btn">Log in</button>
     </form>   
 </div>
