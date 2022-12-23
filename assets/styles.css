@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-color:lightsteelblue;
+}
+
+#login-button {
+    background-color:lightsteelblue;
+    font-weight: bold;
+}
+
+#logout-button {
+    background:lightsteelblue;
+    font-weight: bold;
+}
+
+#sing-button {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+#logout-box {
+    color: white;
+}
+
+#login-box {
+    color: white;
+}
+
+#header-float-box {
+    border-radius: 40px;
+}
+
+#footer-text {
+    display: flex;
+    font-family: Great Vibes;
+    font-size: 3rem;
+    justify-content: right;
+    align-items: center;
+    color: white;
+}
