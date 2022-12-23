@@ -1,0 +1,148 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.gradients {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(8, 255, 0, 1) 10%, rgba(255, 130, 0, 1) 20%, rgba(3, 0, 255, 1) 30%, rgba(93, 74, 6, 1) 40%, rgba(255, 0, 0, 1) 50%, rgba(40, 0, 157, 1) 60%, rgba(2, 153, 215, 1) 70%, rgba(116, 105, 80, 1) 80%, rgba(1, 196, 244, 1) 90%, rgba(0, 212, 255, 1) 100%);
+}
+
+#gradientParent {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 1025px;
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#form {
+    width: 14rem;
+    height: 14rem;
+    padding: 5rem;
+    border-radius: 50% 50%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto auto auto auto;
+}
+
+.label {
+    text-align: center;
+    margin: 0.7rem 0;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+#usernameInput{
+    background-color: rgba( 255, 255, 255, 0.25 );
+    text-align: center;
+    border: none;
+    height: 3rem;
+    width: 12rem;
+    margin: 0 auto;
+    border-top-left-radius: 100% 100px;
+    border-top-right-radius: 100% 100px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+}
+
+#passwordInput{
+    background-color: rgba( 255, 255, 255, 0.25 );
+    text-align: center;
+    border: none;
+    height: 2.5rem;
+    width: 13rem;
+    color: white;
+    border-top-left-radius: 3% 45px;
+    border-bottom-left-radius: 3% 45px;
+    border-top-right-radius: 3% 45px;
+    border-bottom-right-radius: 3% 45px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+}
+
+#buttonLogIn{
+    letter-spacing: 0.1rem;
+    background-color: rgba( 255, 255, 255, 0.25 );
+    border: none;
+    text-align: center;
+    height: 3rem;
+    width: 12rem;
+    margin: 0 auto;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+#buttonLogIn:hover{
+    color: black;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    transition: 0.3s;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textPath{
+font-size: 1rem;
+}
+
+path {
+  fill: transparent;
+  
+}
+
+text {
+    fill: #ff0000;
+}
+
+#semiCircleContainer{
+    position: fixed;
+    left: 31vw;
+    bottom: 35vh;
+}
+
+#gradientParentTwo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#bodyPanel{
+    background-color: rgb(102, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
