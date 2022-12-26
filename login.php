@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 if (isset($_SESSION["username"])) {
   header("Location: panel.php");
 }
@@ -52,8 +53,8 @@ if (isset($_SESSION["username"])) {
             <div class="form-outline mb-4">
               <input type="radio" name="database" id="db" class="form-check-input" value="mysql" required/>
               <label class="form-label me-4" for="db">MySQL </label>
-              <input type="radio" name="database" id="json" class="form-check-input" value="json" required/>
-              <label class="form-label" for="json">JSON File</label>
+              <input type="radio" name="database" id="json" class="form-check-input" value="json" required checked />
+              <label class="form-label" for="json">JSON</label>
             </div>
             <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
           </form>
@@ -61,6 +62,7 @@ if (isset($_SESSION["username"])) {
       </div>
     </div>
   </section>
+
 </body>
 
 </html>
